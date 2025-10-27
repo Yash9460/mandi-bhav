@@ -26,7 +26,7 @@ function App() {
       ctx.fillText(dateStr, 462, 655);
 
       // Draw price
-      ctx.font = '120px Arial';
+      ctx.font = 'bold 120px Arial';
       ctx.fillText(price + '/-', 490, 970);
     };
   };
