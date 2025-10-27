@@ -1,0 +1,87 @@
+#root {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app-container {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 2.5em;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 30px;
+  font-size: 1.2em;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 1.2em;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 5px;
+}
+
+.generate-btn {
+  background: #4CAF50;
+  color: white;
+}
+
+.generate-btn:hover {
+  background: #45a049;
+}
+
+.download-btn {
+  background: #2196F3;
+  color: white;
+}
+
+.download-btn:hover {
+  background: #0b7dda;
+}
+
+canvas {
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+.preview-title {
+  margin-top: 20px;
+  color: #333;
+  font-size: 1.5em;
+}
