@@ -21,7 +21,7 @@ function App() {
       // Draw date
       const today = new Date();
       const dateStr = today.toLocaleDateString('en-GB'); // dd/mm/yyyy
-      ctx.font = '70px Arial';
+      ctx.font = 'bold 70px Arial';
       ctx.fillStyle = 'black';
       ctx.fillText(dateStr, 462, 655);
 
